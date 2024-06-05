@@ -1,0 +1,63 @@
+//Your customizations must come before bootstrap import
+
+// $enable-shadows: true;
+
+// $theme-colors: (
+//   "primary": #0074d9,
+//   "danger": #ff4136,
+//   "warning": rgb(64, 100, 50)
+// );
+
+
+
+$primary: #5f5469;
+// $danger: rgb(109, 53, 53);
+// $warning: rgb(110, 110, 110);
+
+// $bg: rgb(47, 47, 47);
+// $grey-deep: rgb(43, 43, 43);
+// $grey-sub: rgb(55, 55, 55);
+// $base-grey: rgb(61, 61, 61);
+// $lighter-grey: rgb(97, 97, 97);
+// $text-base: rgb(149, 149, 149);
+// $text-lighter: rgb(223, 223, 223);
+
+// $bg: rgb(12, 12, 12);
+// $grey-deep: rgb(6, 6, 6);
+// $grey-sub: rgb(20, 20, 20);
+// $base-grey: rgb(31, 31, 31);
+// $lighter-grey: rgb(46, 46, 46);
+// $text-base: rgb(114, 114, 114);
+// $text-lighter: rgb(151, 151, 151);
+
+$bg: rgb(229, 229, 229); // rgb(220, 220, 220); background-color: rgb(229, 229, 229)!important;
+$grey-deep: rgb(237, 237, 237);
+$grey-sub: rgb(209, 209, 209);
+$base-grey: rgb(203, 203, 203);
+$lighter-grey: rgb(169, 169, 169);
+$text-base: rgb(77, 77, 77);
+$text-lighter: rgb(34, 34, 34);
+
+$button-background: $lighter-grey;
+
+$input-group-addon-border-color: $base-grey;
+$input-group-addon-bg: $grey-deep;
+$input-group-addon-color: $text-base;
+
+$border-color: $base-grey; // rgb(78, 78, 78);
+$input-border-color: $base-grey;
+$input-bg: white;
+$input-color: $text-base;
+$input-disabled-bg: $grey-deep;
+
+$form-file-button-color: $text-lighter;
+$form-file-button-bg: $button-background;
+$accordion-button-bg: white;
+$accordion-button-active-bg: white;
+$accordion-button-active-color: $text-lighter;
+$accordion-bg: white;
+
+$body-color: $text-lighter;
+$body-bg: $bg;
+
+@import '../scss/bootstrap.scss';

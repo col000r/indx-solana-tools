@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h4 {
+  margin-top: 1em !important;
+}
+
+.bg-tag {
+  background-color:rgb(235, 235, 235)!important;
+  color:rgb(145, 145, 145)!important;
+  font-family: Roboto, sans-serif;
+}
+
+.local {
+  /* border: 4px solid rgb(168, 117, 227) !important; */
+  color:white;
+  text-align: right;
+  /* background: black; */
+}
+
+.local::before {
+  content: "LOCAL";
+  font-family: "Roboto", sans-serif;
+  color:white;
+  background: black;
+  position: absolute;
+  font-size:medium;
+  top: 8px;
+  right: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
